@@ -1,6 +1,10 @@
 body {
   background: #f7f7f7;
-  margin: 40px;
+  font-family: verdana;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .photo {
@@ -8,7 +12,27 @@ body {
   border-radius: 50%;
 }
 
-#title, .subtitle, .post_tittle {
+#title {
+  color: #505050;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: #505050;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.post_tittle {
+  color: #505050;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+a {
+  text-decoration: line-through;
   color: #505050;
 }
 
@@ -30,8 +54,20 @@ body {
 .post_content {
   margin: o;
   margin-bottom: 15 px;
+  text-transform: capital
 }
 
 .post_image {
   margin-bottom: 15px;
+  width: 100%;
+}
+
+.contacts_list {
+  list-style-type: square;
+  padding-left: 15px;
+}
+
+.contacts_list li a {
+color: grey;
+text-decoration: none;
 }
